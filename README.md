@@ -27,5 +27,5 @@ Apply multimedia elements such as audio and video.
 
 Happy Coding! 💻✨
 
-![alt text](image.png)
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/4723be32-ed18-4b5e-9881-f4553b39b94a)
+![image](https://github.com/user-attachments/assets/2c15880d-c996-482c-a8d3-288c799346bf)
