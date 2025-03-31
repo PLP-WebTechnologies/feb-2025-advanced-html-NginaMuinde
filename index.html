@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Electric PhoneBook for Feb 2025 Cohort</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PLP Electric PhoneBook for Feb 2025 Cohort</h1>
+
+      <!-- External Image -->
+      <h2>Software Engineering</h2>
+      <img src="c:\Users\caron\Documents\KSG Induction\pexels-danny-meneses-340146-943096.jpg" 
+           alt="Sample Image from Pexels" width="500">
+    
+    <!-- Enrolled Courses with Roman Numerals -->
+    <h2>Enrolled Courses</h2>
+    <ol type="I">
+        <li>Database Design & Programming with SQL</li>
+        <li>Web development V2</li>
+        <li>Python</li>
+    </ol>
+
+    <!-- Contacts Table -->
+    <h2>Contacts</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Mwachofi</td>
+            <td>Umoja Phase One</td>
+            <td>+254764878965</td>
+            <td>john@mtandao.com</td>
+        </tr>
+        <tr>
+            <td>Jane Njuguna</td>
+            <td>Kibera Drive</td>
+            <td>+254735989765</td>
+            <td>jane@mtandao.com</td>
+        </tr>
+        <tr>
+            <td>Mike Onchari</td>
+            <td>Kisii Town</td>
+            <td>+25410112354</td>
+            <td>mike@mtandao.com</td>
+        </tr>
+        <tr>
+            <td>Emily Otieno</td>
+            <td>Machakos Kwa Vonza</td>
+            <td>+254722345678</td>
+            <td>emily@mtandao.com</td>
+        </tr>
+        <tr>
+            <td>Chris Mutonga</td>
+            <td>Mombasa Kongowea</td>
+            <td>+254722198762</td>
+            <td>chris@mtandao.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="kenya">KENYA</option>
+                <option value="nigeria">NIGERIA</option>
+                <option value="south africa">SOUTH AFRICA</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests[]" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests[]" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests[]" value="sports">
+            <label for="sports">Sports</label>
+        </div>
+
+        <div>
+            <button type
